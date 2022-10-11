@@ -13,17 +13,21 @@ body {
     color: white;
 }
 
-a {
-    color: white;
-}
 
+
+/* link design */
 a:link {
+    color: white;
     text-decoration: underline;
 }
+
+
+
 
 a:visited {
     color: grey;
 }
+
 
 /* header setup */
 

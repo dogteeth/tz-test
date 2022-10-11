@@ -8,6 +8,7 @@ html設定
 
 $(document).ready(function () {
   $('.invisible-content').hide();
+
   $(document).on('click', '#readMore-btn', function () {
     var moreLessButton = $('.invisible-content').is(':visible')
       ? '展開'
@@ -15,5 +16,52 @@ $(document).ready(function () {
     $(this).text(moreLessButton);
     $(this).parent('.box').find('.invisible-content').toggle();
     $(this).parent('.box').find('.visible-content').toggle();
+
+    var sectionAnchor = $(this).parent('.box').find('.sectionTitle');
+    $('html, body').animate(
+      { scrollTop: $(sectionAnchor).offset().top - 50 },
+      500
+    );
+    /*
+
+     var sectionAnchor = $(this).parent('.box').find('a');
+    //console.log($(this));
+    $('html, body').animate(
+      { scrollTop: $(sectionAnchor).offset().top - 50 },
+      500
+    );
+    
+    */
   });
 });
+
+//
+
+/**
+ * 
+ * 
+
+
+ var scrollLink = $('.scroll-btn');
+  scrollLink.click(function () {
+    $('body,html').animate({ scrollTop: $(this.hash).offset().top });
+  });
+
+
+$(document).ready(function () {
+  var scrollLink = $('.scroll-btn');
+  scrollLink.click(function (e) {
+    e.preventDefault();
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#elementtoScrollToID").offset().top
+    }, 2000);
+  });
+});
+
+*/
+// $(document).ready(function () {
+//   var scrollLink = $('.scroll');
+//   scrollLink.click(function () {
+//     $(body, html).animate({ scrollTop: $(this.hash).offset().top });
+//   });
+// });
