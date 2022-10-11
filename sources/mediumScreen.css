@@ -1,5 +1,8 @@
 * {
-    background-color: rgb(157, 140, 140);
+    background-color: grey;
+    background-image: url(../img/alien75-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body {

@@ -5,43 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- adobe font -->
-
-    <script>
-      (function (d) {
-        var config = {
-            kitId: 'jix2eap',
-            scriptTimeout: 3000,
-            async: true,
-          },
-          h = d.documentElement,
-          t = setTimeout(function () {
-            h.className =
-              h.className.replace(/\bwf-loading\b/g, '') + ' wf-inactive';
-          }, config.scriptTimeout),
-          tk = d.createElement('script'),
-          f = false,
-          s = d.getElementsByTagName('script')[0],
-          a;
-        h.className += ' wf-loading';
-        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
-        tk.async = true;
-        tk.onload = tk.onreadystatechange = function () {
-          a = this.readyState;
-          if (f || (a && a != 'complete' && a != 'loaded')) return;
-          f = true;
-          clearTimeout(t);
-          try {
-            Typekit.load(config);
-          } catch (e) {}
-        };
-        s.parentNode.insertBefore(tk, s);
-      })(document);
-    </script>
-
-    <!-- css -->
-    <!-- <link rel="stylesheet" href="main.css" /> -->
-
+    <!-- css for different screens -->
     <link
       rel="stylesheet"
       type="text/css"
@@ -60,27 +24,255 @@
       media="screen and  (min-width: 1001px)"
       href="sources/largeScreen.css"
     />
-
-    <!-- page content -->
-
-    <title>測試用網頁</title>
+    <title>其實，我們都是外星人</title>
   </head>
   <body>
+    <!-- 主視覺 -->
     <header class="mainBanner">
-      <h1 class="mainTitle">這是一個測試</h1>
+      <img class="mainBannerImg" src="img/mainImg_AdobeStock.jpeg" alt="" />
+      <h1>其實，<br />我們都是外星人</h1>
     </header>
-    <section class="content">
-      <p>歸鴻聲斷殘雲碧，</p>
-      <p>背窗雪落爐煙直。</p>
-      <p>燭底鳳釵明，</p>
-      <p>釵頭人勝輕。</p>
-      <p>角聲催曉漏，</p>
-      <p>曙色回牛鬥。</p>
-      <p>春意看花難，</p>
-      <p>西風留舊寒。</p>
-    </section>
-    <footer>
-      <img src="img/75-iwanttobelieve.png" alt="" class="footerImage" />
-    </footer>
+    <!-- 主文 -->
+    <article class="container">
+      <!-- Section 1 -->
+      <div class="box">
+        <div class="lineBreak"></div>
+        <h3>一切的開始</h3>
+        <div class="visible-content">
+          <p>
+            75年前（1947），有一個叫阿諾的飛行員，在美國華盛頓州附近目睹了一個長的像碟子的不明飛行物體，以時速將近2000公里的速度從他眼前飛過。隨後幾週全美各地都密集的發生不明飛行物體的事件，接著全球各地也陸續發生了類似的目睹事件，一直到現在。阿諾事件也被認為是UFO時代的開始...
+          </p>
+        </div>
+        <div class="invisible-content">
+          <p>
+            75年前（1947），有一個叫阿諾的飛行員，在美國華盛頓州附近目睹了一個長的像碟子的不明飛行物體，以時速將近2000公里的速度從他眼前飛過。隨後幾週全美各地都密集的發生不明飛行物體的事件，接著全球各地也陸續發生了類似的目睹事件，一直到現在。阿諾事件也被認為是UFO時代的開始。
+          </p>
+          <p>
+            阿諾目睹飛碟後不到兩週的某個大雷雨晚上，在新墨西哥州的某農場主人，發現自己的農場裹有一堆金屬碟形物的殘骸，還有一些人形屍體，但身高、體重，外表特徵，都不像人類。軍方立即封鎖現場，進行調查。調查結果在六天內就公佈了，它只是氣象觀察用的氣球爆炸，不是外星人。真相一直到近年才又被討論，當時在該地服役的司令、處理案子的軍官、和負責調查的FBI，也陸續對外發表聲明，該案子裹提到的不明飛行物、外星人，都是真的。
+          </p>
+          <p>
+            根據FBI洩漏出來的資料，整個40年代，外星人密集的拜訪地球。有一說是1942年開始的「曼哈頓計劃」，一連串的原彈試爆，造成了宇宙能量的波動。再加上1945年美國在日本投下的兩顆原子彈，引起了外星人的擔憂，於是頻繁的拜訪。他們的動機只有一個，防止剛發現核能秘密的地球人不小心把自己給毀了。
+          </p>
+          <p>
+            1982年史蒂芬史匹柏的E.T.上映時，在白宮舉行的特映會。當時的總統雷根，對史匹柏說：”你知道這房裹知道真相的人沒幾個吧？”。真相是”ET
+            phone
+            home”是真實的故事。1949年的新墨西哥州，有人發現了兩架撞毀的飛碟，和五具外星人屍體。隨後在附近發現一個還活著的外星人，在沙漠裹遊盪，於是外星人就被美軍帶回了基地，開始了地球人與外星人的交流。電影裹的小男孩其實是一位美國空軍，生病的ET試著phone
+            home並沒有得到任何的回應，最後就病逝在地球。
+          </p>
+        </div>
+        <button id="readMore-btn">展開</button>
+      </div>
+      <!-- Section 2 -->
+      <div class="box">
+        <div class="lineBreak"></div>
+        <h3>尋找外星人</h3>
+        <div class="visible-content">
+          <p>
+            關於尋找人類之外的文明，有兩個方向，一個是在其它的星球尋找回應，利用最新的科技，向宇宙發送訊息，收集訊息，尋找我們不是唯一的証據。另外一個方向，則是在地球上尋找外星人留下的足跡或線索，這一派的人相信，在現今人類的文明之前，早就存在更先進的文明，金字塔、馬丘比丘這些建築，都是這些文明所建造的。
+          </p>
+        </div>
+        <!-- 機率圖片 -->
+        <div class="invisible-content">
+          <p>
+            關於尋找人類之外的文明，有兩個方向，一個是在其它的星球尋找回應，利用最新的科技，向宇宙發送訊息，收集訊息，尋找我們不是唯一的証據。另外一個方向，則是在地球上尋找外星人留下的足跡或線索，這一派的人相信，在現今人類的文明之前，早就存在更先進的文明，金字塔、馬丘比丘這些建築，都是這些文明所建造的。
+          </p>
+          <div class="theOdd">
+            <h1 class="theOddText">10<sup>10</sup>×10<sup>10</sup></h1>
+          </div>
+          <p>
+            根據科學家的推算，光是地球所在的銀河系至少有一千億顆行星。而整個宇宙像銀河系這樣的星系，推估約有一千億個。所以在一千億乘上一億顆的星球裹，怎麼可能只有地球有文明？這樣的機率怎麼想都不合理。
+          </p>
+          <p>
+            根據BBC在2020年的報導，科學家的最新推估是，在銀河系裹，可能還有36個外星文明，只是離我們大概在1.7萬光年之外。我們向外星發出電波信號，是70年前（上世紀的五十年代）。所以，運氣好的話，再過六千年，我們可以開始第一次的接觸。
+          </p>
+          <h4>外站連結</h4>
+          <p>
+            <a href="https://www.bbc.com/zhongwen/trad/53123895"
+              >BBC新聞｜銀河系可能有36個外星文明</a
+            >
+          </p>
+        </div>
+        <button id="readMore-btn">展開</button>
+      </div>
+      <!-- Section 3 -->
+      <div class="box no-btn">
+        <div class="lineBreak"></div>
+        <h3>星海裹的瓶中信</h3>
+        <div class="visible-content">
+          <p>
+            從上個世紀50年代開始，人類成功的把探索的觸角伸向地球之外。1974年，科學家們朝著離地球約25000光年遠的M13星團發射”阿雷西博訊息”，訊息內容包括人類的DNA，太陽系與地球的位置、基本的數學與物理概念...
+          </p>
+        </div>
+        <div class="invisible-content">
+          <p>
+            從上個世紀50年代開始，人類成功的把探索的觸角伸向地球之外。1974年，科學家們朝著離地球約25000光年遠的M13星團發射”阿雷西博訊息”，訊息內容包括人類的DNA，太陽系與地球的位置、基本的數學與物理概念。如果對方可以正確解碼的話，他們還可以看到一張圖。
+          </p>
+          <p>
+            “阿雷西博訊息”發射後的五十年（目前仍沒有任何文明回應我們），NASA的科學家決定修改訊息內容，再次發送。這次的訊息叫做”銀河系的燈塔”。這次的訊息加入了人類男性與女性的圖像。
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor esse,
+            in quas sit culpa autem eligendi assumenda quos, harum, provident
+            unde minus molestiae. Saepe minima numquam ea hic, exercitationem
+            voluptas. Officia, repellendus. Facilis, vel voluptatibus veritatis
+            nisi unde rerum expedita?
+          </p>
+          <h4>外站連結</h4>
+          <p>
+            <a href="https://zh.m.wikipedia.org/zh-tw/阿雷西博信息"
+              >維基百科｜阿雷西博信息</a
+            ><br />
+            <a
+              href="https://astrobiology.com/2022/03/a-beacon-in-the-galaxy-updated-arecibo-message-for-potential-fast-and-seti-projects.html"
+              >Astrobiology｜A Beacon in the Galaxy</a
+            >
+          </p>
+        </div>
+        <button id="readMore-btn">展開</button>
+      </div>
+      <!-- Section 4 -->
+      <div class="box">
+        <div class="lineBreak"></div>
+        <h3>達爾肖夫指數</h3>
+        <div class="visible-content">
+          <p>
+            有一派的學者，認為我們不應該嚐試接觸外星人。霍金在生前也對這群熱情連繫外星人的人提出警告。我們招來的外星人，極有可能是因為自身星球資源的枯竭，而向外尋找替代能源的文明...
+          </p>
+        </div>
+        <div class="invisible-content">
+          <p>
+            有一派的學者，認為我們不應該嚐試接觸外星人。霍金在生前也對這群熱情連繫外星人的人提出警告。我們招來的外星人，極有可能是因為自身星球資源的枯竭，而向外尋找替代能源的文明。在這樣的情況下，極有可能導致地球被殖民，人類文明的滅亡。
+          </p>
+          <p>
+            俄國科學家卡達爾肖夫在1964年提出了一個方法學，以人類經驗為模式，做了一個想像。他把宇宙各地的文明，分為四個等級：以地球為例，第一等級的文明，表示我們己完全掌握運用地球的所有資源。第二等級，則是完全掌握太陽系所有的資源，包括太陽。第三個等級的文明，我們己經可以掌握銀河系內所有恒星與行星的資源。最高等級的第四個等級，則是己俱備掌握多個星系力運用能力，譬如除了銀河系之外，我們同時也掌握譬如仙女座星系、人馬座星系內所有恒星與行星的資源。
+          </p>
+          <p>
+            根據達爾肖夫指數，地球目前所處等級為零。我們連自己居住星球的資源都還沒有完全掌握的能力任何一級的文明，在我們的眼裹都是上帝。人類要到達第一級的文明，樂觀推論都還需要幾百年的發展。這也帶出了霍金的疑慮，能夠跨越星系來到地球拜訪人類的文明，對我們來說都是危險的。當然，就人類的視角而言，也的確如此。人類向外探索的目標，就是期望取得更多的資源，來豐富自身發展。對於其它物種的岐視與略奪都是合理而正常的。
+          </p>
+          <h4>外站連結</h4>
+          <p>
+            <a href="https://www.youtube.com/watch?v=rhFK5_Nx9xY&t=559s"
+              >Youtube|如何找到外星文明 - 卡爾達肖夫指數</a
+            >
+          </p>
+        </div>
+        <button id="readMore-btn">展開</button>
+      </div>
+      <!-- Section 5 -->
+      <div class="box">
+        <div class="lineBreak"></div>
+        <h3>海奧華預言</h3>
+        <div class="visible-content">
+          <p>
+            1987年有個法國人馬歇，坐上了外星人的飛碟，去了宇宙遊玩了一趟後，回來後把這趟旅行的見聞寫了一本書叫”海奧華預言”。外星人的世界觀裹，文明被分成九個等級。地球的文明是最低等級的第一等...
+          </p>
+        </div>
+        <div class="invisible-content">
+          <p>
+            1987年有個法國人馬歇，坐上了外星人的飛碟，去了宇宙遊玩了一趟後，回來後把這趟旅行的見聞寫了一本書叫”海奧華預言”。外星人的世界觀裹，文明被分成九個等級。地球的文明是最低等級的第一等，來帶馬歇去宇宙旅行的外星人，則是來自最高等第九等星球海奧華。每一個文明等級裹的生物體，都靠著在世時候的修行，決定死後的𩆜魂是要到上一等級的文明，還是下一等級的文明。不管哪一個等級的生物體，我們的靈魂都是來自同一個母體，也就是宇宙的起源。它把自己散到宇宙每一個生物體的靈魂裹，跟著它們體驗宇宙，在生物體去逝後，靈魂可能往不同等級的文明移動，或直接回到母體，或留在原來的等級。
+          </p>
+          <p>
+            人類的祖先都來自其它的星球。有的是因為人口過剩尋找殖民地來到地球，也有的是因為核戰導致無法再居住，而來到地球。我們目前在地球看到的那些巨石古文明，也是他們的科技產物。只是這些來移居的外星文明，沒能撐過地球頻繁發生的地震海嘯等天災，有些離開了地球，沒走的因為天災造成的極端氣候也滅亡了。
+          </p>
+          <h4>外站連結</h4>
+          <p>
+            <a href="https://www.youtube.com/watch?v=1rUWY2z4wUk"
+              >Youtube|老高與小苿-海奧華預言，人類起源，耶穌是誰，金字塔之謎...</a
+            ><br />
+            <a href="https://www.youtube.com/watch?v=1rUWY2z4wUk"
+              >Youtube|馬臉姐-宇宙最高文明！海奧華星球 </a
+            ><br />
+          </p>
+        </div>
+        <button id="readMore-btn">展開</button>
+      </div>
+      <!-- Section 6 -->
+      <div class="box">
+        <div class="lineBreak"></div>
+        <h3>外星人在地球留下的線索</h3>
+        <div class="visible-content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+            fugit reprehenderit modi consequuntur itaque eius facilis quia
+            necessitatibus cupiditate! Aspernatur error odit illum explicabo
+            neque?
+          </p>
+        </div>
+        <div class="invisible-content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            expedita magnam blanditiis cum error mollitia neque doloribus,
+            nostrum ullam nesciunt quisquam id quod earum quam aliquam ex.
+            Obcaecati, tempora iste.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            quisquam eum excepturi veniam a eos culpa esse. Sed officiis ducimus
+            minima quam dolores qui facere quidem, provident eum facilis,
+            tenetur, incidunt voluptatum! Accusamus facilis odio aperiam vitae
+            nemo blanditiis ad et incidunt eos porro. Quasi!
+          </p>
+        </div>
+        <button id="readMore-btn">展開</button>
+      </div>
+      <!-- Section 7 -->
+      <div class="box">
+        <div class="lineBreak"></div>
+        <h3>後話</h3>
+        <div class="visible-content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+            fugit reprehenderit modi consequuntur itaque eius facilis quia
+            necessitatibus cupiditate! Aspernatur error odit illum explicabo
+            neque?
+          </p>
+        </div>
+        <div class="invisible-content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            expedita magnam blanditiis cum error mollitia neque doloribus,
+            nostrum ullam nesciunt quisquam id quod earum quam aliquam ex.
+            Obcaecati, tempora iste.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            quisquam eum excepturi veniam a eos culpa esse. Sed officiis ducimus
+            minima quam dolores qui facere quidem, provident eum facilis,
+            tenetur, incidunt voluptatum! Accusamus facilis odio aperiam vitae
+            nemo blanditiis ad et incidunt eos porro. Quasi!
+          </p>
+        </div>
+        <button id="readMore-btn">展開</button>
+      </div>
+      <div class="lineBreak"></div>
+    </article>
+    <!-- Section 延伸閱讀-->
+    <article class="promoSection">
+      <h2>延伸閱讀</h2>
+      <div class="promoEntry">
+        <img class="bookcover" src="img/dummyBook.jpg" />
+        <h4 class="promoText">
+          <a href="#"> Ipsum quisquam eum excepturi Lorem, ipsum dolor.</a>
+        </h4>
+      </div>
+      <div class="promoEntry">
+        <img class="bookcover" src="img/dummyBook.jpg" />
+        <h4 class="promoText">
+          <a href="#">
+            Facilis odio aperiam vitae nemo blanditiis, Lorem ipsum dolor sit
+            amet.</a
+          >
+        </h4>
+      </div>
+      <div class="promoEntry">
+        <img class="bookcover" src="img/dummyBook.jpg" />
+        <h4 class="promoText">
+          <a href="#">Iquam ex. Obcaecati, tempora iste. Lorem, ipsum.</a>
+        </h4>
+      </div>
+    </article>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="sources/readMore.js"></script>
   </body>
 </html>
