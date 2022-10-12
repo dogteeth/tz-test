@@ -7,6 +7,7 @@
 }
 
 
+
 body {
     background-color: black;
     font-family: 'Noto Sans TC', sans-serif;
@@ -117,8 +118,22 @@ header h1 {
     font-size: 2rem;
 }
 
-.bookcover {
-    width: 180px
+
+.bookBlockH .bookcover {
+    width: 150px;
+}
+
+.bookBlockH {
+    background-color: rgb(76, 76, 76);
+    padding: 0.5rem 0.8rem 0.5rem 0.5rem;
+    display: flex;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    align-items: space-evenly;
+    border-radius: 0.5rem;
+}
+
+.bookInfo {
+    margin-left: 1rem;
 }
 
 
@@ -140,4 +155,50 @@ header h1 {
 
 .promoEntry {
     margin-bottom: 3rem;
+}
+
+.promoSection .bookcover {
+    width: 220px;
+}
+
+/* Section 4 Banner */
+.section4Banner {
+    display: flex;
+    flex: 1 2 auto;
+    object-fit: scale-down;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+}
+
+
+.pt_color {
+    padding: 0.5rem;
+    object-fit: scale-down;
+    width: 10vw;
+}
+
+.pt_grey {
+    padding: 0.5rem;
+    object-fit: scale-down;
+    width: 20vw;
+}
+
+.pt_green {
+    padding: 0.5rem;
+    width: 30vw;
+    flex-grow: 1;
+
+}
+
+/* Section 7 Banner */
+.section7BannerImg {
+    display: block;
+    width: 75vw;
+    margin: auto;
+}
+
+/* Section 1 Banner */
+.section1BannerImg {
+    display: none;
+    width: 100%;
 }

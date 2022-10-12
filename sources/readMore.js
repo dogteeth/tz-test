@@ -22,16 +22,6 @@ $(document).ready(function () {
       { scrollTop: $(sectionAnchor).offset().top - 50 },
       500
     );
-    /*
-
-     var sectionAnchor = $(this).parent('.box').find('a');
-    //console.log($(this));
-    $('html, body').animate(
-      { scrollTop: $(sectionAnchor).offset().top - 50 },
-      500
-    );
-    
-    */
   });
 });
 
