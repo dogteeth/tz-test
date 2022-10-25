@@ -357,18 +357,15 @@
 /* 推薦閱讀 */
 
 .promotionTitle {
-    display: flex;
-    font-size: large;
     margin: 5rem 2rem 0rem 2rem;
-    justify-content: center;
 }
 
-.promotionTitle>h1 {
+.promotionTitle>h2 {
     margin: 1rem;
-    padding: 1rem 20rem 1rem 20rem;
+    padding: 1rem;
     background-color: grey;
     border-radius: 2rem;
-
+    text-align: center;
 }
 
 .promoSet {
@@ -386,7 +383,6 @@
 }
 
 /* hide the big img */
-
 
 .kardashevScaleMainBanner {
     display: none;
