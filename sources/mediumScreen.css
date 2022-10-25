@@ -284,11 +284,10 @@
 
 /* 推薦閱讀 */
 .promotionTitle {
-    font-size: large;
     margin: 3rem 1rem 1rem 1rem;
 }
 
-.promotionTitle>h1 {
+.promotionTitle>h2 {
     /* margin: 1rem; */
     /* padding: 1rem 20rem 1rem 20rem; */
     padding: 0.5rem;
