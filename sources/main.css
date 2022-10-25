@@ -1,0 +1,59 @@
+/* for headerBanner parallax scroll */
+.mainContainer {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+
+.headerBanner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.imgSky {
+    transform: translateZ(-10px) scale(2);
+}
+
+.imgPerson {
+    transform: translateZ(-5px) scale(1.5);
+}
+
+.imgSky,
+.imgPerson {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+.headerTitle {
+    font-size: 4rem;
+    padding: 1rem;
+    margin: 1rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem var(--mainBkColor);
+
+}
+
+
+/* main articles */
+.mainArticles {
+    background-color: var(--mainBkColor);
+    /* padding-top: 1rem; */
+}
+
+.box {
+    margin: 0.5rem;
+}
+
+.readMoreLink {
+    white-space: nowrap;
+}

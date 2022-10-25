@@ -1,0 +1,79 @@
+@import "../sources/basicStyling.css";
+
+.pageMainContent {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    background-color: black;
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pageSideBanner {
+    order: 1;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+
+}
+
+.pageSideBanner>img {
+    height: 100vh;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.articleFullText {
+    margin: 1rem 1rem 6rem 1rem;
+    order: 2;
+    text-align: justify;
+
+}
+
+
+.goBackLink {
+    position: fixed;
+    font-size: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    padding: 0rem 2rem 0rem 2rem;
+    right: 2rem;
+    bottom: 2rem;
+    border: solid white 1px;
+    text-decoration: none;
+    background-color: var(--btnBkColor);
+    color: var(--btnTextColor);
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .pageMainContent {
+        grid-template-columns: 10% 1fr;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width:800px) {
+
+    .pageMainContent {
+        grid-template-columns: 20% 1fr;
+    }
+
+    .articleFullText {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 801px) {
+
+    .pageMainContent {
+        grid-template-columns: 30% 1fr;
+    }
+
+    .articleFullText {
+        width: 60%;
+    }
+}

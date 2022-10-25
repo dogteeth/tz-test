@@ -1,258 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.headerBanner>h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 120%;
 }
-
-
-
-body {
-    background-color: black;
-    font-family: 'Noto Sans TC', sans-serif;
-    color: white;
-}
-
-
-
-/* link design */
-a:link {
-    color: white;
-    text-decoration: underline;
-}
-
-
-
-
-a:visited {
-    color: grey;
-}
-
-
-/* header setup */
-
-
-header {
-    margin: 1rem;
-}
-
-.mainBanner {
-    position: relative;
-}
-
-.mainBannerImg {
-    display: block;
-    width: 100vw;
-}
-
-header h1 {
-    position: absolute;
-    bottom: 0px;
-    color: white;
-}
-
-
-/* articles  */
-.container {
-    margin: 1rem;
-}
-
-/* 讓top往下移，空出btn的位置 */
-.box {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-}
-
 
 .lineBreak {
+    display: block;
     background-color: white;
     width: 100%;
     height: 1px;
     margin-top: 1rem;
-    margin-bottom: 1rem;
-
+    margin-bottom: 1.5rem;
 }
 
-.box h3 {
-    margin-bottom: 1rem;
-}
-
-.box p {
-    font-weight: 30;
-    margin-bottom: 1rem;
-    text-align: justify;
-}
-
-
-#readMore-btn {
-    background-color: rgb(195, 194, 194);
-    color: black;
-    padding: 2px 25px 3px 25px;
-    margin: 0px;
-    border-radius: 5px;
-    float: right;
-}
-
-#readMore-btn:hover {
-    box-shadow: 0 5px 5px rgba(249, 247, 247, 0.2);
-}
-
-
-
-.theOdd {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: radial-gradient(circle at center, rgba(255, 255, 255, 0) 60%, rgb(0, 0, 0) 100%), url(../img/milky-way.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 30vh;
-    margin-bottom: 1rem;
-}
-
-.theOddText {
-    font-size: 3.5rem;
-}
-
-.theOddText sup {
-    font-size: 2rem;
-}
-
-
-.bookBlockH .bookcover {
-    width: 150px;
-}
-
-.bookBlockH {
-    background-color: rgb(76, 76, 76);
-    padding: 0.5rem 0.8rem 0.5rem 0.5rem;
-    display: flex;
-    margin: 0.5rem 0.5rem 1rem 0.5rem;
-    align-items: space-evenly;
-    border-radius: 0.5rem;
-}
-
-.bookInfo {
-    margin-left: 1rem;
-}
-
-
-.promoSection {
+.mainArticles {
     display: block;
-    flex: 1;
-    margin: 1rem;
+    padding-top: 1px;
+}
+
+
+.box {
+    margin: 2rem 1rem 2rem 1rem;
+
+}
+
+.promotionTitle {
+    margin: 0rem 1rem 1rem 1rem;
     text-align: center;
-}
-
-.promoSection h2 {
-    font-size: 1.2rem;
-    margin: 1rem;
-    padding: 0.2rem;
-    border-radius: 0.5rem;
-    background-color: white;
-    color: black;
-}
-
-.promoEntry {
-    margin-bottom: 3rem;
-}
-
-.promoSection .bookcover {
-    width: 220px;
-}
-
-/* Section 4 Banner */
-.section4Banner {
-    display: flex;
-    flex: 1 2 auto;
-    object-fit: scale-down;
-    align-items: flex-end;
-    margin-bottom: 1rem;
-}
-
-
-.pt_color {
     padding: 0.5rem;
-    object-fit: scale-down;
-    width: 10vw;
-}
-
-.pt_grey {
-    padding: 0.5rem;
-    object-fit: scale-down;
-    width: 20vw;
-}
-
-.pt_green {
-    padding: 0.5rem;
-    width: 30vw;
-    flex-grow: 1;
-
-}
-
-/* Section 7 Banner */
-.section7BannerImg {
-    display: block;
-    width: 75vw;
-    margin: auto;
-}
-
-/* Section 1 Banner */
-.section1BannerImg {
-    display: none;
-    width: 100%;
-}
-
-/* Section 6 Layout */
-
-.section6Container {
-    display: flex;
-    overflow-x: auto;
-
-}
-
-.section6Container::-webkit-scrollbar {
-    width: 0;
-}
-
-.section6Container section {
-    height: 100vh;
-    padding: 1rem;
-    margin: 0.2rem;
+    background-color: grey;
     border-radius: 1rem;
-    min-width: 80vw;
-    overflow-y: auto;
+
 }
 
-
-.section6Container section:nth-child(1) {
-    background-color: rgb(49, 45, 45);
+.promoSet {
+    display: flex;
+    margin: 1.2rem;
 }
 
-.section6Container section:nth-child(2) {
-    background-color: rgb(83, 69, 69);
+.promoSet>img {
+    width: 30%;
 }
 
-.section6Container section:nth-child(3) {
-    background-color: rgb(82, 60, 60);
+.promoDescription {
+    padding: 0 1rem 1rem 1rem;
 }
 
-.section6Container section:nth-child(4) {
-    background-color: rgb(108, 62, 62);
+/* 圖檔隱藏(for mediumScreen only */
+.theBeginningMainBanner {
+    display: none;
 }
 
-.section6Container section:nth-child(5) {
-    background-color: rgb(62, 24, 24);
+.messageInABottleMainBanner {
+    display: none;
 }
 
-
-.section6Container .content {
-    display: block;
+.kardashevScaleMainBanner {
+    display: none;
 }
 
-.section6Img {
-    object-fit: scale-down;
-    width: 100%;
+.fingerprintsOfTheGodsMainBanner {
+    display: none;
+}
+
+.andThenMainBanner {
+    display: none;
+}
+
+/* 圖檔隱藏(for largeScreenOnly) */
+
+.theBeginning02Banner {
+    display: none;
+}
+
+.theBeginning03Banner {
+    display: none;
+}
+
+.messageInABottle02Banner {
+    display: none;
+}
+
+.messageInABottle03Banner {
+    display: none;
+}
+
+.kardashevScaleLargeScreenMainBanner {
+    display: none;
+}
+
+.fingerprintsOfTheGods02Img {
+    display: none;
+}
+
+.fingerprintsOfTheGods03Img {
+    display: none;
+}
+
+.fingerprintsOfTheGods04Img {
+    display: none;
 }

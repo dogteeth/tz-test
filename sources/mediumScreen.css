@@ -1,10 +1,345 @@
-* {
-    background-color: grey;
-    background-image: url(../img/alien75-01.png);
+/* 全域設定 */
+
+
+.fullText {
+    display: none;
+}
+
+.lineBreak {
+    display: none;
+}
+
+.mainArticles {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+}
+
+
+/* 單元 網格順序 */
+.theBeginningMainBanner {
+    order: 1;
+}
+
+.theBeginning {
+    order: 2;
+}
+
+
+.lookingForContacts {
+    grid-column: 1 / span 2;
+    order: 3;
+}
+
+
+.messageInABottleMainBanner {
+    order: 4;
+}
+
+.messageInABottle {
+    order: 5;
+}
+
+.kardashevScaleMainBanner {
+    order: 6;
+}
+
+.kardashevScale {
+    order: 7;
+}
+
+
+.thiaooubaProphecy {
+    grid-column: 1 / span 2;
+    order: 8;
+}
+
+.imgForBreath {
+    grid-column: 1 / span 2;
+    order: 9;
+}
+
+.fingerprintsOfTheGodsMainBanner {
+    order: 10;
+}
+
+.fingerprintsOfTheGods {
+    order: 11;
+}
+
+.andThenMainBanner {
+    order: 12;
+}
+
+.andThen {
+    order: 13;
+}
+
+.promotionTitle {
+    grid-column: 1 / span 2;
+    order: 21;
+}
+
+.promo01 {
+    order: 22;
+}
+
+.promo02 {
+    order: 23;
+}
+
+.promo03 {
+    order: 24;
+}
+
+.promo04 {
+    order: 25;
+}
+
+/* 單元：一切的開始 */
+
+.theBeginningMainBanner {
+    position: relative;
+    margin: 2rem 0.5rem 2rem 2rem;
+}
+
+.theBeginningMainBanner>.imgDescription {
+    position: absolute;
+    color: black;
+    font-weight: 500;
+    bottom: 1px;
+    right: 10px;
+
+}
+
+.theBeginningMainImg {
+    object-fit: cover;
+    width: 100%;
+    height: 30vh;
+    border-radius: 0.5rem;
+}
+
+.theBeginning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+/*  單元：尋找外星人 */
+.lookingForContacts {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.1) 55%, rgba(0, 0, 0, 1) 75%), url(../img/milky-way.jpg);
     background-size: cover;
+    background-position: center;
+
+}
+
+.lookingForContacts>.innerTextDiv {
+    width: 40%;
+}
+
+
+.lookingForContacts>.innerTextDiv>h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* 單元：星海裹的瓶中信 */
+
+.messageInABottleMainBanner {
+    margin: 2rem 0.5rem 2rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.1px 2px rgba(255, 255, 255, 0.3);
+}
+
+.messageInABottleMainImg {
+    object-fit: cover;
+    width: 100%;
+    height: 30vh;
+    border-radius: 0.5rem;
+    filter: grayscale(90%);
+}
+
+.messageInABottle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+
+/* 單元：達爾肖夫指數 */
+
+.kardashevScaleMainBanner {
+    margin: 2rem 0.5rem 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(../img/milky-way.jpg);
+    background-position: center;
+    background-size: fill;
+    border-radius: 0.5rem;
+}
+
+.planet01 {
+    object-fit: cover;
+    filter: grayscale(10%);
+}
+
+.planet02 {
+    object-fit: cover;
+    filter: grayscale(90%);
+}
+
+.kardashevScale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.kardashevScaleMainImg {
+    width: 60%;
+}
+
+/* 單元：海奧華預言 */
+.thiaooubaProphecy {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 70vh;
+    background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.1) 55%, rgba(0, 0, 0, 1) 75%), url(../img/planet.jpeg);
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
-body {
+.thiaooubaProphecy>.innerTextDiv {
+    width: 40%;
+    margin-bottom: 2rem;
+}
+
+.thiaooubaProphecy>.innerTextDiv>h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* 空間休息圖片1 */
+
+.imgForBreath {
+    height: 50vh;
+    background-image: url(../img/mayaPrayerBW.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* 單元：外星人在地球的証據 */
+.fingerprintsOfTheGodsMainBanner {
+    margin: 2rem 0.5rem 2rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.fingerprintsOfTheGodsMainImg {
+    object-fit: cover;
+    width: 100%;
+    height: 30vh;
+    border-radius: 0.5rem;
+    filter: grayscale(40%);
+
+}
+
+
+.fingerprintsOfTheGods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1.5rem;
+}
+
+/* 單元：後話 */
+
+.andThenMainBanner {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.andThenMainImg {
+    width: 70%;
+    object-fit: contain;
+}
+
+.andThen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1.5rem;
+}
+
+/* 推薦閱讀 */
+.promotionTitle {
+    font-size: large;
+    margin: 3rem 1rem 1rem 1rem;
+}
+
+.promotionTitle>h1 {
+    /* margin: 1rem; */
+    /* padding: 1rem 20rem 1rem 20rem; */
+    padding: 0.5rem;
+    background-color: grey;
+    border-radius: 2rem;
+    text-align: center;
+
+}
+
+.promoSet {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem;
+    padding: 1.5rem 1rem 1rem 1rem;
+    align-items: flex-start;
+    background-color: rgb(37, 37, 37);
+    border-radius: 1rem;
+}
+
+.promoSet>img {
+    width: 40%;
+}
+
+/* 圖檔隱藏(for largeScreenOnly) */
+
+.theBeginning02Banner {
+    display: none;
+}
+
+.theBeginning03Banner {
+    display: none;
+}
+
+.messageInABottle02Banner {
+    display: none;
+}
+
+.messageInABottle03Banner {
+    display: none;
+}
+
+
+
+.kardashevScaleLargeScreenMainBanner {
+    display: none;
+}
+
+.fingerprintsOfTheGods02Banner {
+    display: none;
+}
+
+.fingerprintsOfTheGods03Banner {
     display: none;
 }
