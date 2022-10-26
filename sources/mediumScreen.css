@@ -12,6 +12,7 @@
 .mainArticles {
     display: grid;
     grid-template-columns: 50% 1fr;
+
 }
 
 
@@ -74,25 +75,80 @@
     order: 13;
 }
 
+/* promo-Section */
 .promotionTitle {
     grid-column: 1 / span 2;
     order: 21;
 }
 
-.promo01 {
+/* promo-01 */
+.promo01Title {
     order: 22;
+    grid-column: 1 / span 2;
 }
 
-.promo02 {
+.promo01Book01 {
     order: 23;
 }
 
-.promo03 {
+.promo01Book02 {
     order: 24;
 }
 
-.promo04 {
+/* promo-02 */
+.promo02Title {
     order: 25;
+    grid-column: 1 / span 2;
+}
+
+.promo02Book01 {
+    order: 26;
+}
+
+.promo02Book02 {
+    order: 27;
+}
+
+/* promo-03 */
+.promo03Title {
+    order: 28;
+    grid-column: 1 / span 2;
+}
+
+.promo03Book01 {
+    order: 29;
+}
+
+.promo03Book02 {
+    order: 30;
+}
+
+/* promo-04 */
+.promo04Title {
+    order: 31;
+    grid-column: 1 / span 2;
+}
+
+.promo04Book01 {
+    order: 32;
+}
+
+.promo04Book02 {
+    order: 33;
+}
+
+/* promo-05 */
+.promo05Title {
+    order: 34;
+    grid-column: 1 / span 2;
+}
+
+.promo05Book01 {
+    order: 35;
+}
+
+.promo05Book02 {
+    order: 36;
 }
 
 /* 單元：一切的開始 */
@@ -284,31 +340,66 @@
 
 /* 推薦閱讀 */
 .promotionTitle {
-    margin: 3rem 1rem 1rem 1rem;
+    margin: 3rem 1rem -1rem 1rem;
 }
 
 .promotionTitle>h2 {
-    /* margin: 1rem; */
-    /* padding: 1rem 20rem 1rem 20rem; */
-    padding: 0.5rem;
+    padding: 1rem;
     background-color: grey;
     border-radius: 2rem;
     text-align: center;
 
 }
 
-.promoSet {
+/* 活動區 */
+
+
+.promoTitle {
     display: flex;
-    gap: 0.5rem;
-    margin: 1rem;
-    padding: 1.5rem 1rem 1rem 1rem;
-    align-items: flex-start;
-    background-color: rgb(37, 37, 37);
-    border-radius: 1rem;
+    align-items: baseline;
+    gap: 1rem;
+    background: grey;
+    padding: 1rem;
+    margin: 2rem 1rem -1rem 1rem;
+    border-radius: 1rem 1rem 0 0;
 }
 
-.promoSet>img {
-    width: 40%;
+.bookset {
+    height: 45vh;
+    background-color: grey;
+    overflow-y: hidden;
+    margin: 1rem;
+    border-radius: 0rem 0 1rem 1rem;
+    position: relative;
+
+}
+
+
+.promoSection img {
+    filter: grayscale(90%);
+}
+
+.promoSection a:hover img {
+    filter: none;
+
+}
+
+
+.promoBookCover {
+    width: 100%;
+    object-fit: contain;
+
+
+}
+
+.bookDescription {
+    display: block;
+    width: 100%;
+    background-color: rgba(100, 98, 98, 0.8);
+    position: absolute;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    bottom: 0px;
+    font-size: 1.5rem;
 }
 
 /* 圖檔隱藏(for largeScreenOnly) */
