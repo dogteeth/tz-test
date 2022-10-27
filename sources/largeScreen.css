@@ -16,8 +16,11 @@
 
 .mainArticles {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     padding-top: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(14, 1fr);
+    gap: 0; */
+
 }
 
 
@@ -105,88 +108,88 @@
 
 .andThenMainBanner {
     grid-column: 3 / 4;
-    order: 19;
+    order: 21;
 }
 
 .andThen {
     grid-column: 4 / 4;
-    order: 20;
+    order: 22;
 }
 
 /* promo-Section */
 .promotionTitle {
-    order: 21;
+    order: 24;
     grid-column: 2 / span 3;
 }
 
 /* promo-01 */
 .promo01Title {
-    order: 22;
+    order: 26;
     grid-column: 2 / 2;
 }
 
 .promo01Book01 {
-    order: 23;
+    order: 27;
 }
 
 .promo01Book02 {
-    order: 24;
+    order: 28;
 }
 
 /* promo-02 */
 .promo02Title {
-    order: 25;
+    order: 30;
     grid-column: 2 / 2;
 }
 
 .promo02Book01 {
-    order: 26;
+    order: 31;
 }
 
 .promo02Book02 {
-    order: 27;
+    order: 32;
 }
 
 /* promo-03 */
 .promo03Title {
-    order: 28;
-    grid-column: 2 / 2;
-}
-
-.promo03Book01 {
-    order: 29;
-}
-
-.promo03Book02 {
-    order: 30;
-}
-
-/* promo-04 */
-.promo04Title {
-    order: 31;
-    grid-column: 2 / 2;
-}
-
-.promo04Book01 {
-    order: 32;
-}
-
-.promo04Book02 {
-    order: 33;
-}
-
-/* promo-05 */
-.promo05Title {
     order: 34;
     grid-column: 2 / 2;
 }
 
-.promo05Book01 {
+.promo03Book01 {
     order: 35;
 }
 
-.promo05Book02 {
+.promo03Book02 {
     order: 36;
+}
+
+/* promo-04 */
+.promo04Title {
+    order: 38;
+    grid-column: 2 / 2;
+}
+
+.promo04Book01 {
+    order: 39;
+}
+
+.promo04Book02 {
+    order: 40;
+}
+
+/* promo-05 */
+.promo05Title {
+    order: 42;
+    grid-column: 2 / 2;
+}
+
+.promo05Book01 {
+    order: 43;
+}
+
+.promo05Book02 {
+    order: 44;
 }
 
 /* 單元：一切的開始 */
@@ -476,7 +479,16 @@
     font-size: 1.5rem;
 }
 
+/* fixed background test */
 
+
+.galaxyBK {
+    order: 100;
+    width: 100%;
+    height: 20vh;
+    background-color: green;
+
+}
 
 /* hide the big img */
 
