@@ -30,6 +30,7 @@
 }
 
 
+
 .goBackLink {
     position: fixed;
     font-size: 1rem;
@@ -45,8 +46,53 @@
 }
 
 
+.reference {
+    margin-top: 3rem;
+}
 
+.refContent {
+    display: flex;
+    padding: 1rem 2rem 0rem 1rem;
+    margin: 0.5rem;
+    align-items: flex-start;
+    background-color: rgb(40, 40, 40);
+    border-radius: 1rem;
+}
 
+.refContent>img {
+    width: 80px;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+
+.attachedImgSection {
+    /* display: block; */
+    margin: 1rem;
+}
+
+.attachedImgSection>img {
+    width: 100%;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin-top: 2rem;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+.youtubeLogo {
+    width: 80px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+
+}
 
 @media screen and (max-width: 600px) {
 
