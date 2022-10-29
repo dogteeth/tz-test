@@ -30,7 +30,6 @@
 }
 
 
-
 .goBackLink {
     position: fixed;
     font-size: 1rem;
@@ -47,7 +46,7 @@
 
 
 .reference {
-    margin-top: 3rem;
+    margin: 1rem 0rem;
 }
 
 .refContent {
@@ -59,20 +58,7 @@
     border-radius: 1rem;
 }
 
-.refContent>img {
-    width: 80px;
-    object-fit: contain;
-    margin-right: 1rem;
-}
 
-.attachedImgSection {
-    /* display: block; */
-    margin: 1rem;
-}
-
-.attachedImgSection>img {
-    width: 100%;
-}
 
 p {
     margin-bottom: 1rem;
@@ -86,12 +72,36 @@ h3 {
     font-weight: 300;
 }
 
+
+/*各連結來源的LOGO  */
 .youtubeLogo {
+    border: solid red;
     width: 80px;
     background-color: white;
     padding: 10px;
     border-radius: 50%;
+    object-fit: contain;
+    margin: 0rem 1rem 1rem 1rem;
+}
 
+.wikiLogo {
+    width: 80px;
+    object-fit: contain;
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+.bbcLogo {
+    width: 80px;
+    object-fit: contain;
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+.voxLogo {
+    width: 80px;
+    background: white;
+    object-fit: cover;
+    padding: 10px;
+    margin: 0rem 1rem 1rem 1rem;
 }
 
 @media screen and (max-width: 600px) {
