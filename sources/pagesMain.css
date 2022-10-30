@@ -52,7 +52,7 @@
 .refContent {
     display: flex;
     padding: 1rem 2rem 0rem 1rem;
-    margin: 0.5rem;
+    margin: 1rem 0.5rem;
     align-items: flex-start;
     background-color: rgb(40, 40, 40);
     border-radius: 1rem;
