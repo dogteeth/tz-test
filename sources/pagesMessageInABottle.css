@@ -1,0 +1,34 @@
+.sideBannerAreciboMessage {
+    filter: opacity(40%) grayscale(50%)
+}
+
+.pioneerMessageImg,
+.goldenRecordImg {
+    width: 100%;
+    object-fit: cover;
+}
+
+.areciboMessageImgsSet {
+    display: flex;
+    margin: 1rem 1rem 0.5rem 1ren;
+    justify-content: left;
+    gap: 0.5rem;
+
+}
+
+.areciboMessageOriginal,
+.areciboMessageAliens {
+    width: 40%;
+    margin-bottom: 0.5rem;
+}
+
+.refBook {
+    margin: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.refBook img {
+    height: 30vh;
+    object-fit: cover;
+}

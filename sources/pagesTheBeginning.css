@@ -1,18 +1,5 @@
-.attachedImgSection {
-    /* display: block; */
-    margin: 1rem;
-}
-
-.attachedImgSection>img {
+.arnoldLetter {
     width: 100%;
     height: 50vh;
     object-fit: cover;
-}
-
-.attachedImgSection {
-    position: relative;
-}
-
-em {
-    font-weight: 700;
 }

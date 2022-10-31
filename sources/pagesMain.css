@@ -12,10 +12,11 @@
 .pageSideBanner {
     order: 1;
     width: 100%;
-    background-color: grey;
+    background-color: black;
     display: flex;
 
 }
+
 
 .pageSideBanner>img {
     overflow: hidden;
@@ -50,14 +51,6 @@
     margin: 1rem 0rem;
 }
 
-.refContent {
-    display: flex;
-    padding: 1rem 2rem 0rem 1rem;
-    margin: 1rem 0.5rem;
-    align-items: flex-start;
-    background-color: rgb(40, 40, 40);
-    border-radius: 1rem;
-}
 
 
 
@@ -73,6 +66,19 @@ h3 {
     font-weight: 300;
 }
 
+.attachedImgSection {
+    margin: 1rem;
+
+}
+
+.imgSource {
+    margin-top: -0.2rem;
+    font-size: 0.8em;
+}
+
+.readMoreLink {
+    white-space: nowrap;
+}
 
 /*各連結來源的LOGO  */
 .youtubeLogo {
@@ -105,10 +111,31 @@ h3 {
     margin: 0rem 1rem 1rem 1rem;
 }
 
+.astrobiologyLogo {
+    width: 80px;
+    object-fit: cover;
+    padding: 10px;
+    margin: 0rem 1rem 1rem 1rem;
+}
+
 @media screen and (max-width: 600px) {
 
     .pageMainContent {
         grid-template-columns: 10% 1fr;
+    }
+
+    .refContent {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem 0rem 1rem;
+        margin: 1rem 0.5rem;
+        align-items: flex-start;
+        background-color: rgb(40, 40, 40);
+        border-radius: 1rem;
+    }
+
+    .refContent img {
+        display: none;
     }
 }
 
@@ -121,6 +148,15 @@ h3 {
     .articleFullText {
         width: 70%;
     }
+
+    .refContent {
+        display: flex;
+        padding: 1rem 2rem 0rem 1rem;
+        margin: 1rem 0.5rem;
+        align-items: flex-start;
+        background-color: rgb(40, 40, 40);
+        border-radius: 1rem;
+    }
 }
 
 @media screen and (min-width: 801px) {
@@ -131,5 +167,14 @@ h3 {
 
     .articleFullText {
         width: 60%;
+    }
+
+    .refContent {
+        display: flex;
+        padding: 1rem 2rem 0rem 1rem;
+        margin: 1rem 0.5rem;
+        align-items: flex-start;
+        background-color: rgb(40, 40, 40);
+        border-radius: 1rem;
     }
 }
