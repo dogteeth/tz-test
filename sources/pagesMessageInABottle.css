@@ -21,14 +21,3 @@
     width: 40%;
     margin-bottom: 0.5rem;
 }
-
-.refBook {
-    margin: 1rem;
-    display: flex;
-    gap: 1rem;
-}
-
-.refBook img {
-    height: 30vh;
-    object-fit: cover;
-}

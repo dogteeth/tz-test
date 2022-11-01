@@ -118,6 +118,22 @@ h3 {
     margin: 0rem 1rem 1rem 1rem;
 }
 
+.linkIcon {
+    background-color: grey;
+    width: 80px;
+    object-fit: cover;
+    padding: 20px;
+    margin: 0rem 1rem 1rem 1rem;
+    border-radius: 30%;
+
+}
+
+
+.refBook img {
+    height: 30vh;
+    object-fit: cover;
+}
+
 @media screen and (max-width: 600px) {
 
     .pageMainContent {
@@ -126,7 +142,6 @@ h3 {
 
     .refContent {
         display: flex;
-        flex-direction: column;
         padding: 1rem 2rem 0rem 1rem;
         margin: 1rem 0.5rem;
         align-items: flex-start;
@@ -136,6 +151,14 @@ h3 {
 
     .refContent img {
         display: none;
+    }
+
+    .refBook {
+        margin: 1rem;
+        display: block;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background-color: grey;
     }
 }
 
@@ -151,11 +174,23 @@ h3 {
 
     .refContent {
         display: flex;
+        flex-direction: row;
         padding: 1rem 2rem 0rem 1rem;
         margin: 1rem 0.5rem;
         align-items: flex-start;
         background-color: rgb(40, 40, 40);
         border-radius: 1rem;
+    }
+
+    .refBook {
+        margin: 1rem;
+        display: flex;
+        gap: 1rem;
+
+        padding: 1rem;
+        background-color: grey;
+        border-radius: 0.5rem;
+
     }
 }
 
@@ -171,10 +206,21 @@ h3 {
 
     .refContent {
         display: flex;
+        flex-direction: row;
         padding: 1rem 2rem 0rem 1rem;
         margin: 1rem 0.5rem;
         align-items: flex-start;
         background-color: rgb(40, 40, 40);
         border-radius: 1rem;
+    }
+
+    .refBook {
+        margin: 1rem;
+        display: flex;
+        gap: 1rem;
+
+        padding: 1rem;
+        background-color: grey;
+        border-radius: 0.5rem;
     }
 }
