@@ -1,0 +1,10 @@
+.refBook {
+    margin: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.refBook img {
+    height: 30vh;
+    object-fit: cover;
+}
