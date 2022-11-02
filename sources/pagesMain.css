@@ -197,7 +197,7 @@ h3 {
 @media screen and (min-width: 801px) {
 
     .pageMainContent {
-        grid-template-columns: 30% 1fr;
+        grid-template-columns: 25% 1fr;
     }
 
     .articleFullText {

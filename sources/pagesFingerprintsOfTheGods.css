@@ -8,3 +8,41 @@
     height: 30vh;
     object-fit: cover;
 }
+
+
+.authorImgSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.authorImg {
+    width: 70%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+.attachedImgSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.piriReisMapImg {
+    width: 70%;
+    height: 40vh;
+    object-fit: contain;
+    object-position: center;
+}
+
+.zenoMapImg {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
+}
