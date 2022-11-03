@@ -1,8 +1,22 @@
-.backgroundHandsContactImg {
-    background-image: url(../img/handsContact.png);
-    width: 100%;
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30%;
+@media screen and (max-width: 600px) {
+    .backgroundHandsContactImg {
+        background-image: url(../img/handsContact.png);
+        width: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .backgroundHandsContactImg {
+        background-image: url(../img/handsContact.png);
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
 }
