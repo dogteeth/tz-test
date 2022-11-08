@@ -1,0 +1,56 @@
+/*全域設定 */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&family=Roboto:ital,wght@0,300;0,500;0,700;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.mainBody_aliens {
+    background: rgba(0, 0, 0, 1);
+}
+
+
+.h1_aliens {
+    font-weight: 500;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h2_aliens {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h3_aliens {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.p_aliens {
+    font-weight: 100;
+    font-size: 1.2em;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.link_aliens:link,
+.link_aliens:visited {
+    color: white;
+}

@@ -39,15 +39,15 @@
     font-size: 4rem;
     padding: 1rem;
     margin: 1rem;
-    text-shadow: 0.2rem 0.2rem 0.2rem var(--mainBkColor);
+    text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 1);
 
 }
 
 
 /* main articles */
 .mainArticles {
-    background-color: var(--mainBkColor);
-    /* padding-top: 1rem; */
+    background-color: rgba(0, 0, 0, 1);
+
 }
 
 .box {

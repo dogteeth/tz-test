@@ -1,3 +1,12 @@
+.pageSideBanner {
+    filter: grayscale(70%);
+}
+
+.backgroundHandsContactImg {
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
 @media screen and (max-width: 600px) {
     .backgroundHandsContactImg {
         background-image: url(../img/handsContact.png);
