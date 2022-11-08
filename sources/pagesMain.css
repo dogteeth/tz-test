@@ -56,6 +56,9 @@
     margin: 1rem 0rem;
 }
 
+.refText>.p_aliens {
+    margin-top: 0.3rem;
+}
 
 .attachedImgSection {
     margin: 1rem;
