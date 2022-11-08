@@ -2,15 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&family=Roboto:ital,wght@0,300;0,500;0,700;1,100&display=swap');
 
-* {
+.mainBody_aliens {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
+.mainBody_aliens * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.mainBody_aliens {
+.mainContainer {
     background: rgba(0, 0, 0, 1);
 }
 
@@ -24,14 +29,15 @@
 }
 
 .h2_aliens {
-    font-weight: 300;
+    font-weight: 400;
     color: rgba(255, 255, 255, 1);
     font-family: 'Noto Sans TC', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
 .h3_aliens {
-    font-weight: 300;
+    font-weight: 350;
+    font-size: 1.35rem;
     color: rgba(255, 255, 255, 1);
     font-family: 'Noto Sans TC', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -39,7 +45,7 @@
 
 
 .p_aliens {
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.2em;
     text-align: justify;
     margin-top: 1rem;
@@ -53,4 +59,42 @@
 .link_aliens:link,
 .link_aliens:visited {
     color: white;
+}
+
+.logo_banner_aliens {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    margin: 0rem;
+    padding: 1.5rem 1rem 1rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_banner_entry_aliens_group {
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+li.logo_banner_entry_aliens {
+    list-style: none;
+    font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
+    color: #ff057d;
+}
+
+.logo_banner_entry_link_aliens:link {
+    color: #ff057d;
+    text-decoration: none;
+}
+
+.logo_banner_entry_link_aliens:hover {
+    color: #ff057d;
+    text-decoration: underline;
+}
+
+.logo_banner_entry_link_aliens:visited {
+    color: #ff057d;
+    text-decoration: none;
 }

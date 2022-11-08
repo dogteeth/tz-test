@@ -9,6 +9,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.articleFullText>h1:first-child {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+}
+
 .pageSideBanner {
     order: 1;
     width: 100%;
@@ -52,25 +57,13 @@
 }
 
 
-
-
-/* p {
-    margin-bottom: 1rem;
-}
-
-h1 {
-    margin-top: 2rem;
-} */
-
-
-
 .attachedImgSection {
     margin: 1rem;
 
 }
 
 .imgSource {
-    margin-top: -0.2rem;
+    margin-top: 0.2rem;
     font-size: 0.8em;
 }
 
