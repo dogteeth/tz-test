@@ -32,7 +32,7 @@
 @media screen and (max-width: 600px) {
 
     .mainBanner>.mainBannerTitle {
-        background-color: rgba(255, 255, 255, 0);
+        background-color: rgba(255, 255, 255, 0.2);
         color: white;
     }
 }
