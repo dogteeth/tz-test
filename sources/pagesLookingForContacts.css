@@ -23,11 +23,25 @@
 
 .mainBanner>.mainBannerTitle {
     font-size: 2rem;
-    color: black;
-    text-shadow: 0.5px 0.5px rgb(85, 168, 60);
     font-family: 'Noto Serif TC', serif;
-    background-color: rgba(255, 255, 255, 0.7);
     padding: 0rem 1rem 0.2rem 1rem;
     margin: 1rem 0rem;
     border-radius: 0.2rem;
+}
+
+@media screen and (max-width: 600px) {
+
+    .mainBanner>.mainBannerTitle {
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+    }
+}
+
+@media screen and (min-width: 601px) {
+
+    .mainBanner>.mainBannerTitle {
+        color: black;
+        text-shadow: 0.5px 0.5px rgb(85, 168, 60);
+        background-color: rgba(255, 255, 255, 0.5);
+    }
 }
